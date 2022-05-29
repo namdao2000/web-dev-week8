@@ -1,7 +1,13 @@
+import Body from "./components/body/body";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
+
 function App() {
   return (
     <div className="App">
-      Hello World, my name is Nam Dao. Welcome to my youtube channel!
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
